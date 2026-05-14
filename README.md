@@ -20,6 +20,12 @@ Users can take a photo using the camera or upload an image from the gallery. The
 - Google Colab
 - CNN (Convolutional Neural Network)
 
+## AI Model
+
+The application uses a TensorFlow Lite deep learning model for flower image classification.
+
+The model was trained using CNN architecture and integrated into the Android application for real-time prediction.
+
 ## Project Structure
 
 app/src/main/
