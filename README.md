@@ -1,15 +1,16 @@
-# Android Flower Recognition App
+# AI Plant and Flower Recognition App
 
-An Android application developed using Java and TensorFlow Lite to classify flower images.
+An AI-powered Android application developed using Java and TensorFlow Lite to classify plants and flowers with deep learning models.
 
-Users can take a photo using the camera or upload an image from the gallery. The application processes the image with a deep learning model and predicts the flower type.
+Users can capture photos using the camera or upload images from the gallery. The application processes images using TensorFlow Lite models and predicts plant species in real time.
 
 ## Features
+- Plant and flower image classification
 - Camera image capture
 - Gallery image upload
-- Flower image classification
 - TensorFlow Lite integration
-- Real-time prediction results
+- Real-time prediction system
+- Multiple AI classification models
 - Interactive mobile interface
 
 ## Technologies
@@ -20,30 +21,18 @@ Users can take a photo using the camera or upload an image from the gallery. The
 - Google Colab
 - CNN (Convolutional Neural Network)
 
-## AI Model
-
-The application uses a TensorFlow Lite deep learning model for flower image classification.
-
-The model was trained using CNN architecture and integrated into the Android application for real-time prediction.
-
 ## Project Structure
 
 app/src/main/
-- java
-- res
+- java/
+- res/
+- assets/
 - AndroidManifest.xml
 
-## Supported Flower Types
-- Rose
-- Daisy
-- Tulip
-- Sunflower
-- Carnation
-- Lotus
-- Dandelion
-- Chrysanthemum
-- And more...
+## AI Models
+
+The project includes TensorFlow Lite models trained for plant and flower classification tasks.
 
 ## Purpose of the Project
 
-This project was developed to improve mobile application development and image classification skills using deep learning technologies.
+This project was developed to improve mobile application development and deep learning based image classification skills.
